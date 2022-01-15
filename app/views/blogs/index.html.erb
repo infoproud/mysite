@@ -1,5 +1,7 @@
 <% @blogs.each do |blog| %>
     <a href = "/blogs/<%= blog.id%>"> show </a>
+    <br />
+    <%= button_to "Destroy this testing resource", "/blogs/#{blog.id}", method: :delete %>
     <div>
         <ul>
             <li>id: <%= blog.id %></li>

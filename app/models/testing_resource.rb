@@ -1,0 +1,2 @@
+class TestingResource < ApplicationRecord
+end
