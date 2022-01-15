@@ -1,0 +1,10 @@
+<% @blogs.each do |blog| %>
+    <div>
+        <ul>
+            <li>id: <%= blog.id %></li>
+            <li>title:  <%= blog.title %></li>
+            <li>description: <%= blog.description %></li>
+        </ul>
+        <hr />
+    </div>
+<% end %>
